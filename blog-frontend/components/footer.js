@@ -3,28 +3,61 @@ import { EXAMPLE_PATH } from '../lib/constants'
 
 export default function Footer() {
   return (
-    <footer className="bg-accent-1 border-t border-accent-2">
-      <Container>
-        <div className="py-28 flex flex-col lg:flex-row items-center">
-          <h3 className="text-4xl lg:text-5xl font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2">
-            Statically Generated with Next.js.
-          </h3>
-          <div className="flex flex-col lg:flex-row justify-center items-center lg:pl-4 lg:w-1/2">
-            <a
-              href="https://nextjs.org/docs/basic-features/pages"
-              className="mx-3 bg-black hover:bg-white hover:text-black border border-black text-white font-bold py-3 px-12 lg:px-8 duration-200 transition-colors mb-6 lg:mb-0"
-            >
-              Read Documentation
-            </a>
-            <a
-              href={`https://github.com/vercel/next.js/tree/canary/examples/${EXAMPLE_PATH}`}
-              className="mx-3 font-bold hover:underline"
-            >
-              View on GitHub
-            </a>
-          </div>
-        </div>
-      </Container>
-    </footer>
+    <footer class="bg-gray-100">
+  <div class="container mx-auto px-6 pt-10 pb-6">
+    <div class="flex flex-wrap">
+      <div class="w-full md:w-1/4 text-center md:text-left">
+        <h5 class="uppercase mb-6 font-bold">Links</h5>
+        <ul class="mb-4">
+          <li class="mt-2">
+            <a href="#" class="hover:underline text-gray-600 hover:text-orange-500">FAQ</a>
+          </li>
+          <li class="mt-2">
+            <a href="#" class="hover:underline text-gray-600 hover:text-orange-500">Help</a>
+          </li>
+          <li class="mt-2">
+            <a href="#" class="hover:underline text-gray-600 hover:text-orange-500">Support</a>
+          </li>
+        </ul>
+      </div>
+      <div class="w-full md:w-1/4 text-center md:text-left">
+        <h5 class="uppercase mb-6 font-bold">Legal</h5>
+        <ul class="mb-4">
+          <li class="mt-2">
+            <a href="#" class="hover:underline text-gray-600 hover:text-orange-500">Terms</a>
+          </li>
+          <li class="mt-2">
+            <a href="#" class="hover:underline text-gray-600 hover:text-orange-500">Privacy</a>
+          </li>
+        </ul>
+      </div>
+      <div class="w-full md:w-1/4 text-center md:text-left">
+        <h5 class="uppercase mb-6 font-bold">Social</h5>
+        <ul class="mb-4">
+          <li class="mt-2">
+            <a href="#" class="hover:underline text-gray-600 hover:text-orange-500">Facebook</a>
+          </li>
+          <li class="mt-2">
+            <a href="#" class="hover:underline text-gray-600 hover:text-orange-500">Linkedin</a>
+          </li>
+          <li class="mt-2">
+            <a href="#" class="hover:underline text-gray-600 hover:text-orange-500">Twitter</a>
+          </li>
+        </ul>
+      </div>
+      <div class="w-full md:w-1/4 text-center md:text-left">
+        <h5 class="uppercase mb-6 font-bold">Organization</h5>
+        <ul class="mb-4">
+          <li class="mt-2">
+            <a href="#" class="hover:underline text-gray-600 hover:text-orange-500">About Us</a>
+          </li>
+          <li class="mt-2">
+            <a href="#" class="hover:underline text-gray-600 hover:text-orange-500">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
   )
 }
