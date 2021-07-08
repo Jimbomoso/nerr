@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import rodrun4 from "../public/rodrun4.jpg";
+import rodrun4 from "../public/rodrun4.jpg"
 
 export default function Homehero() {
   return (

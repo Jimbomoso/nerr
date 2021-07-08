@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "package.json",
-  "author": "Knut Melvær <knut@sanity.io>",
-  "license": "UNLICENSED",
+  "author": "NitchMedia, LLC",
+  "license": "NitchMedia, LLC",
   "scripts": {
     "start": "sanity start",
     "test": "sanity check"
