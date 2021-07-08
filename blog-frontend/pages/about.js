@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "../components/layout";
 import Head from "next/head";
 import Container from "../components/container";
-import Image from 'next/image'
+import Image from "next/image";
 
 // import rodrun2 from "/rodrun2.jpeg";
 // import rodrun1 from "/rodrun1.jpg";
@@ -40,18 +40,28 @@ export default function About() {
                 </p>
               </div>
               <div class="w-full md:w-1/2">
-                <Image className="md:w-full lg:w-full" src="/rodrun2.jpeg" />
+                <Image
+                  className="md:w-full lg:w-full"
+                  src="/rodrun2.jpeg"
+                  height={500}
+                  width={500}
+                />
               </div>
             </div>
 
             <div class="flex items-center flex-wrap mb-20">
               <div class="w-full md:w-1/2">
-              <Image className="md:w-full lg:w-full" src="/rodrun5.JPG" />
+                <Image
+                  className="md:w-full lg:w-full"
+                  src="/rodrun5.JPG"
+                  height={500}
+                  width={500}
+                />
               </div>
               <div class="w-full md:w-1/2 pl-10">
                 <h4 class="text-3xl text-gray-800 font-bold mb-3">Events</h4>
                 <p class="text-gray-600 mb-8">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Elementum eu facilisis sed odio morbi quis commodo odio
                   aenean. Ornare quam viverra orci sagittis eu volutpat odio.
@@ -72,7 +82,7 @@ export default function About() {
               <div class="w-full md:w-1/2">
                 <h4 class="text-3xl text-gray-800 font-bold mb-3">Charity</h4>
                 <p class="text-gray-600 mb-8">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Elementum eu facilisis sed odio morbi quis commodo odio
                   aenean. Ornare quam viverra orci sagittis eu volutpat odio.
@@ -88,7 +98,12 @@ export default function About() {
                 </p>
               </div>
               <div class="w-full md:w-1/2">
-              <Image className="md:w-full lg:w-full" src="/rodrun1.jpg" />
+                <Image
+                  className="md:w-full lg:w-full"
+                  src="/rodrun1.jpg"
+                  height={500}
+                  width={500}
+                />
               </div>
             </div>
           </section>
