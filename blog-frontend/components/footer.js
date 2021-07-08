@@ -15,7 +15,7 @@ export default function Footer() {
           <li className="mt-2">
             <a href="#" className="hover:underline text-gray-600 hover:text-orange-500">Help</a>
           </li>
-          <li className="mt-2">
+          <li class="mt-2">
             <a href="#" className="hover:underline text-gray-600 hover:text-orange-500">Support</a>
           </li>
         </ul>
