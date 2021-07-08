@@ -4,9 +4,9 @@ import Head from "next/head";
 import Container from "../components/container";
 import Image from 'next/image'
 
-import rodrun2 from "/rodrun2.jpeg";
-import rodrun1 from "/rodrun1.jpg";
-import rodrun5 from "/rodrun5.jpg";
+// import rodrun2 from "/rodrun2.jpeg";
+// import rodrun1 from "/rodrun1.jpg";
+// import rodrun5 from "/rodrun5.jpg";
 
 export default function About() {
   return (
@@ -40,13 +40,13 @@ export default function About() {
                 </p>
               </div>
               <div class="w-full md:w-1/2">
-                <Image className="md:w-full lg:w-full" src={rodrun2} />
+                <Image className="md:w-full lg:w-full" src="/rodrun2.jpeg" />
               </div>
             </div>
 
             <div class="flex items-center flex-wrap mb-20">
               <div class="w-full md:w-1/2">
-              <Image className="md:w-full lg:w-full" src={rodrun5} />
+              <Image className="md:w-full lg:w-full" src="/rodrun5.JPG" />
               </div>
               <div class="w-full md:w-1/2 pl-10">
                 <h4 class="text-3xl text-gray-800 font-bold mb-3">Events</h4>
@@ -88,7 +88,7 @@ export default function About() {
                 </p>
               </div>
               <div class="w-full md:w-1/2">
-              <Image className="md:w-full lg:w-full" src={rodrun1} />
+              <Image className="md:w-full lg:w-full" src="/rodrun1.jpg" />
               </div>
             </div>
           </section>
