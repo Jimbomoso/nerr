@@ -1,13 +1,12 @@
-import Link from "next/link";
 import React from "react";
 import Layout from "../components/layout";
 import Head from "next/head";
 import Container from "../components/container";
 import Image from 'next/image'
 
-import rodrun2 from "../public/rodrun2.jpeg";
-import rodrun1 from "../public/rodrun1.jpg";
-import rodrun5 from "../public/rodrun5.jpg";
+import rodrun2 from "/rodrun2.jpeg";
+import rodrun1 from "/rodrun1.jpg";
+import rodrun5 from "/rodrun5.jpg";
 
 export default function About() {
   return (
